@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>دعاء النوم</title>
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  <style>
+    body {
+      background-color: #73a3d7; /* أزرق غامق */
+      color: white;
+    }
+    .duaa-card {
+      background: rgb(102, 203, 231);
+      color: #0d1b2a;
+      border-radius: 15px;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.3);
+      margin-bottom: 20px;
+      padding: 20px;
+      border: 2px solid #e8dc31;  /* إطار أزرق غامق */
+       background: url("img/6cfb35bc237ee281425cdf519c17da54.jpg") no-repeat center center fixed;
+  background-size: cover;
+    }
+    .page-title {
+      background-color: #1b263b;
+      padding: 20px;
+      text-align: center;
+      color: #fff;
+      font-size: 26px;
+      font-weight: bold;
+       background: url("img/canvas.png") no-repeat center center fixed;
+  background-size: cover;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- عنوان علوي -->
+  <div class="page-title">
+  🤲ورد الصلاة الابراهيمية🤲
+  </div>
+
+  <!-- محتوى الأدعية -->
+  <div class="container mt-4">
+
+    <div class="duaa-card text-center">
+      <p class="fs-5">  اللهم صلّ على محمد، وعلى آل محمد، كما صليت على إبراهيم، وعلى آل إبراهيم، إنك حميد مجيد، اللهم بارك على محمد، وعلى آل محمد، كما باركت على إبراهيم، وعلى آل إبراهيم، إنك حميد مجيد</p>
+    </div>
+
+   
+  </div>
+
+
+
+
+
+
+  <div class="text-center">
+    <h2 class="mb-3">عدّاد الأذكار</h2>
+    <p class="fs-4">القيمة الحالية: <span id="counter">0</span></p>
+    <button class="btn btn-primary btn-lg" onclick="increaseCounter()">اضغط هنا</button>
+  </div>
+
+  <script>
+    let count = 0;
+    function increaseCounter() {
+      count++;
+      document.getElementById("counter").textContent = count;
+    }
+  </script>
+
+
+
+
+
+
+
+
+
+  <!-- Bootstrap JS -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
